@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
 import UseEffect from './component/UseEffect'
+import DependencyListArray from './component/DependencyListArray'
+import CleanUpFunction from './component/CleanUpFunction';
 
 const App = () => {
   return (
     <div className='App'>
-    <UseEffect/>
+    {/* <UseEffect/> */}
+    {/* <DependencyListArray/> */}
+    <CleanUpFunction/>
     </div>
   )
 }
